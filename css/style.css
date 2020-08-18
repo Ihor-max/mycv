@@ -1,88 +1,94 @@
 @font-face {
-    font-family: "myfonts";
-    src: url("../fonts/myfonts.eot?kxta52");
-    src: url("../fonts/myfonts.eot?kxta52#iefix") format("embedded-opentype"),
+  font-family: "myfonts";
+  src: url("../fonts/myfonts.eot?kxta52");
+  src: url("../fonts/myfonts.eot?kxta52#iefix") format("embedded-opentype"),
     url("../fonts/myfonts.ttf?kxta52") format("truetype"),
     url("../fonts/myfonts.woff?kxta52") format("woff"),
     url("../fonts/myfonts.svg?kxta52#myfonts") format("svg");
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
 }
 
 i {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: "myfonts" !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "myfonts" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-fb:before {
-    content: "\e900";
+  content: "\e900";
 }
 
 .icon-insta:before {
-    content: "\e901";
+  content: "\e901";
 }
 
 .icon-tv:before {
-    content: "\e902";
+  content: "\e902";
 }
 
 .icon-ut:before {
-    content: "\e903";
+  content: "\e903";
 }
 
 /*Main style*/
 
 .wrapper {
-    position: relative;
-    width: 100%;
-    max-width: 1130px;
-    height: auto;
-    background: red;
-    margin: 0 auto;
+  position: relative;
+  width: 100%;
+  max-width: 1130px;
+  height: auto;
+  background: red;
+  margin: 0 auto;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  margin-top: 86px;
 }
 
 a.links {
-    height: 16px;
-    color: #007fff;
-    font-family: "Nunito", sans-serif;
-    font-size: 12px;
-    font-weight: 800;
-    line-height: 16px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    text-decoration: none;
+  height: 16px;
+  color: #007fff;
+  font-family: "Nunito", sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 16px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-decoration: none;
 }
 
 .left-block a {
-    margin-right: 73px;
+  margin-right: 73px;
 }
 
 .left-block a:last-child {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .right-block a {
-    margin-left: 73px;
+  margin-left: 73px;
 }
 
 .right-block a:first-child {
-    margin-left: 0;
+  margin-left: 0;
+}
+
+.central-block {
+  width: 52px;
+  height: 52px;
 }
