@@ -42,14 +42,17 @@ i {
 }
 
 /*Main style*/
+html body {
+  font-family: "Nunito", sans-serif;
+}
 
 .wrapper {
   position: relative;
   width: 100%;
   max-width: 1130px;
   height: auto;
-  background: red;
-  margin: 0 auto;
+  /*background: red;*/
+  margin: 0 auto 30px;
 }
 
 .header {
@@ -63,7 +66,6 @@ i {
 a.links {
   height: 16px;
   color: #007fff;
-  font-family: "Nunito", sans-serif;
   font-size: 12px;
   font-weight: 800;
   line-height: 16px;
@@ -91,4 +93,79 @@ a.links {
 .central-block {
   width: 52px;
   height: 52px;
+}
+
+.main__head_text {
+  margin-top: 120px;
+}
+
+.main__head_text h1 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: #000000;
+}
+
+.main__head_text h1 span {
+  color: #007fff;
+}
+
+.main__head_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.main__head_link a {
+  margin: 0 15px;
+  font-size: 20px;
+  color: #007fff;
+  text-decoration: none;
+}
+.vertikal-line {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.line-1 {
+  position: absolute;
+  width: 1px;
+  height: 2933px;
+  left: 525px;
+  top: 0px;
+  background: #ededed;
+}
+.line-2 {
+  position: absolute;
+  width: 1px;
+  height: 2933px;
+  left: 250px;
+  top: 0px;
+  background: #ededed;
+}
+.line-3 {
+  position: absolute;
+  width: 1px;
+  height: 2933px;
+  left: 800px;
+  top: 0px;
+  background: #ededed;
+}
+.line-4 {
+  position: absolute;
+  width: 1px;
+  height: 2933px;
+  left: 1074px;
+  top: 0px;
+  background: #ededed;
+}
+.line-5 {
+  position: absolute;
+  width: 1px;
+  height: 2933px;
+  left: 1349px;
+  top: 0px;
+  background: #ededed;
 }
