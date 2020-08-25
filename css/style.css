@@ -44,6 +44,10 @@ i {
 /*Main style*/
 html body {
   font-family: "Nunito", sans-serif;
+  position: relative;
+  width: 1600px;
+  height: 3766px;
+  background: #ffffff;
 }
 
 .wrapper {
@@ -91,8 +95,11 @@ a.links {
 }
 
 .central-block {
-  width: 52px;
-  height: 52px;
+  position: absolute;
+  left: 47.64%;
+  right: 47.64%;
+  top: 0%;
+  bottom: 0%;
 }
 
 .main__head_text {
@@ -127,45 +134,46 @@ a.links {
 }
 .vertikal-line {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row;
+  justify-content: space-between;
 }
 .line-1 {
   position: absolute;
   width: 1px;
-  height: 2933px;
+  height: calc(100%-86px);
   left: 525px;
-  top: 0px;
+  top: -86px;
   background: #ededed;
 }
 .line-2 {
   position: absolute;
   width: 1px;
-  height: 2933px;
+  height: calc(100%-86px);
   left: 250px;
-  top: 0px;
+  top: -86px;
   background: #ededed;
 }
 .line-3 {
   position: absolute;
   width: 1px;
-  height: 2933px;
+  height: calc(100%-86px) x;
   left: 800px;
-  top: 0px;
+  top: -86px;
   background: #ededed;
 }
 .line-4 {
   position: absolute;
   width: 1px;
-  height: 2933px;
+  height: calc(100%-86px);
   left: 1074px;
-  top: 0px;
+  top: -86px;
   background: #ededed;
 }
 .line-5 {
   position: absolute;
   width: 1px;
-  height: 2933px;
+  height: calc(100%-86px);
   left: 1349px;
-  top: 0px;
+  top: -86px;
   background: #ededed;
 }
