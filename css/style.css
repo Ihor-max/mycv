@@ -1,179 +1,264 @@
 @font-face {
-  font-family: "myfonts";
-  src: url("../fonts/myfonts.eot?kxta52");
-  src: url("../fonts/myfonts.eot?kxta52#iefix") format("embedded-opentype"),
+    font-family: "myfonts";
+    src: url("../fonts/myfonts.eot?kxta52");
+    src: url("../fonts/myfonts.eot?kxta52#iefix") format("embedded-opentype"),
     url("../fonts/myfonts.ttf?kxta52") format("truetype"),
     url("../fonts/myfonts.woff?kxta52") format("woff"),
     url("../fonts/myfonts.svg?kxta52#myfonts") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
 }
 
 i {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "myfonts" !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "myfonts" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
 
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-fb:before {
-  content: "\e900";
+    content: "\e900";
 }
 
 .icon-insta:before {
-  content: "\e901";
+    content: "\e901";
 }
 
 .icon-tv:before {
-  content: "\e902";
+    content: "\e902";
 }
 
 .icon-ut:before {
-  content: "\e903";
+    content: "\e903";
 }
 
 /*Main style*/
 html body {
+<<<<<<< HEAD
   font-family: "Nunito", sans-serif;
   position: relative;
   width: 1600px;
   height: 3766px;
   background: #ffffff;
+=======
+    font-family: "Nunito", sans-serif;
+>>>>>>> 14787b717b3f036f995d9f4cfb1ffb452af46ddf
 }
 
 .wrapper {
-  position: relative;
-  width: 100%;
-  max-width: 1130px;
-  height: auto;
-  /*background: red;*/
-  margin: 0 auto 30px;
+    position: relative;
+    width: 100%;
+    max-width: 1130px;
+    height: auto;
+    /* background: red; */
+    margin: 0 auto 30px;
+    padding-bottom: 120px;
+    border-bottom: 1px solid red;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 15px;
-  margin-top: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 86px;
+    position: relative;
+    z-index: 2;
+}
+
+.main__head {
+    position: relative;
+    z-index: 2;
+}
+
+.left-block {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right-block {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 a.links {
-  height: 16px;
-  color: #007fff;
-  font-size: 12px;
-  font-weight: 800;
-  line-height: 16px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  text-decoration: none;
+    height: 16px;
+    color: #007fff;
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 16px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-decoration: none;
 }
 
 .left-block a {
-  margin-right: 73px;
+    margin-right: 73px;
 }
 
 .left-block a:last-child {
-  margin-right: 0;
+    margin-right: 0;
 }
 
 .right-block a {
-  margin-left: 73px;
+    margin-left: 73px;
 }
 
 .right-block a:first-child {
-  margin-left: 0;
+    margin-left: 0;
 }
 
 .central-block {
+<<<<<<< HEAD
   position: absolute;
   left: 47.64%;
   right: 47.64%;
   top: 0%;
   bottom: 0%;
+=======
+    width: 52px;
+    height: 52px;
+>>>>>>> 14787b717b3f036f995d9f4cfb1ffb452af46ddf
 }
 
 .main__head_text {
-  margin-top: 120px;
+    margin-top: 120px;
 }
 
 .main__head_text h1 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 60px;
-  text-align: center;
-  color: #000000;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
 }
 
 .main__head_text h1 span {
-  color: #007fff;
+    color: #007fff;
 }
 
 .main__head_link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
 
 .main__head_link a {
-  margin: 0 15px;
-  font-size: 20px;
-  color: #007fff;
-  text-decoration: none;
+    margin: 0 15px;
+    font-size: 20px;
+    color: #007fff;
+    text-decoration: none;
 }
+
 .vertikal-line {
+<<<<<<< HEAD
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+=======
+    display: flex;
+    flex-direction: column-reverse;
+>>>>>>> 14787b717b3f036f995d9f4cfb1ffb452af46ddf
 }
+
 .line-1 {
+<<<<<<< HEAD
   position: absolute;
   width: 1px;
   height: calc(100%-86px);
   left: 525px;
   top: -86px;
   background: #ededed;
+=======
+    position: absolute;
+    width: 1px;
+    height: calc(100% + 86px);
+    left: 0;
+    top: -86px;
+    background: red;
+>>>>>>> 14787b717b3f036f995d9f4cfb1ffb452af46ddf
 }
+
 .line-2 {
+<<<<<<< HEAD
   position: absolute;
   width: 1px;
   height: calc(100%-86px);
   left: 250px;
   top: -86px;
   background: #ededed;
+=======
+    position: absolute;
+    width: 1px;
+    height: calc(100% + 86px);
+    left: 25%;
+    top: -86px;
+    background: red;
+>>>>>>> 14787b717b3f036f995d9f4cfb1ffb452af46ddf
 }
+
 .line-3 {
+<<<<<<< HEAD
   position: absolute;
   width: 1px;
   height: calc(100%-86px) x;
   left: 800px;
   top: -86px;
   background: #ededed;
+=======
+    position: absolute;
+    width: 1px;
+    height: calc(100% + 86px);
+    left: 50%;
+    top: -86px;
+    background: red;
+>>>>>>> 14787b717b3f036f995d9f4cfb1ffb452af46ddf
 }
+
 .line-4 {
+<<<<<<< HEAD
   position: absolute;
   width: 1px;
   height: calc(100%-86px);
   left: 1074px;
   top: -86px;
   background: #ededed;
+=======
+    position: absolute;
+    width: 1px;
+    height: calc(100% + 86px);
+    left: 75%;
+    top: -86px;
+    background: red;
+>>>>>>> 14787b717b3f036f995d9f4cfb1ffb452af46ddf
 }
+
 .line-5 {
+<<<<<<< HEAD
   position: absolute;
   width: 1px;
   height: calc(100%-86px);
   left: 1349px;
   top: -86px;
   background: #ededed;
+=======
+    position: absolute;
+    width: 1px;
+    height: calc(100% + 86px);
+    left: 100%;
+    top: -86px;
+    background: red;
+>>>>>>> 14787b717b3f036f995d9f4cfb1ffb452af46ddf
 }
